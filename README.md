@@ -1,6 +1,6 @@
 <div align="center">
 
-# PHPStan TYPO3 Preset
+# TYPO3 PHPStan Preset
 
 </div>
 
@@ -15,7 +15,7 @@ This package provides a basic TYPO3 [PHPStan](https://phpstan.org/) configuratio
 [![Packagist Downloads](https://img.shields.io/packagist/dt/konradmichalik/php-cs-fixer-preset?color=brightgreen)](https://packagist.org/packages/konradmichalik/php-cs-fixer-preset)
 
 ```bash
-composer require konradmichalik/phpstan-preset --dev
+composer require konradmichalik/phpstan-typo3-preset --dev
 ```
 
 ## ⚡ Usage
