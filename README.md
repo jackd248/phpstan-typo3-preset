@@ -1,0 +1,38 @@
+<div align="center">
+
+# PHPStan TYPO3 Preset
+
+</div>
+
+This package provides a basic TYPO3 [PHPStan](https://phpstan.org/) configuration.
+
+> [!IMPORTANT]
+> This package is intended for use in my personal projects only. It is not designed for general use.
+
+## 🔥 Installation
+
+[![Packagist](https://img.shields.io/packagist/v/konradmichalik/php-cs-fixer-preset?label=version&logo=packagist)](https://packagist.org/packages/konradmichalik/php-cs-fixer-preset)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/konradmichalik/php-cs-fixer-preset?color=brightgreen)](https://packagist.org/packages/konradmichalik/php-cs-fixer-preset)
+
+```bash
+composer require konradmichalik/phpstan-preset --dev
+```
+
+## ⚡ Usage
+
+If you have the [`phpstan/extension-installer`](https://github.com/phpstan/extension-installer)
+package installed, there's nothing more to do. The [base configuration](extension.neon)
+is automatically included.
+
+### Manual Setup
+
+```yaml
+# phpstan.neon
+
+includes:
+  - %rootDir%/../../konradmichalik/phpstan-typo3-preset/extension.neon
+```
+
+## ⭐ License
+
+This project is licensed under [GNU General Public License 3.0 (or later)](LICENSE).

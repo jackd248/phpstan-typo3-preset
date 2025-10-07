@@ -1,0 +1,12 @@
+/.idea
+/vendor
+/.php-cs-fixer.cache
+/.phpunit.result.cache
+/.build
+/coverage-report
+/php-cs-fixer.xml
+/phpstan.xml
+/public/
+/site
+/tests/composer.lock
+/tests/vendor
