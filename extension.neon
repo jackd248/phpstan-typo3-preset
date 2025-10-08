@@ -28,9 +28,9 @@ parameters:
 		param: 95
 		property: 95
 
-		cognitive_complexity:
-				class: 10
-				function: 5
+	cognitive_complexity:
+		class: 10
+		function: 5
 
 	disallowedFunctionCalls:
 		-
