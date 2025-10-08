@@ -30,7 +30,7 @@ is automatically included.
 # phpstan.neon
 
 includes:
-  - %rootDir%/../../konradmichalik/phpstan-typo3-preset/extension.neon
+  - %rootDir%/../../konradmichalik/phpstan-typo3-preset/phpstan.neon.dist
 ```
 
 ## ⭐ License
