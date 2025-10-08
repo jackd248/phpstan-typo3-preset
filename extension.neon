@@ -1,13 +1,8 @@
 includes:
-	-  %rootDir%/../../saschaegerer/phpstan-typo3/extension.neon
-	-  %rootDir%/../../phpstan/phpstan-strict-rules/rules.neon
-	-  %rootDir%/../../phpstan/phpstan-deprecation-rules/rules.neon
-	-  %rootDir%/../../spaze/phpstan-disallowed-calls/extension.neon
 	-  %rootDir%/../../spaze/phpstan-disallowed-calls/disallowed-dangerous-calls.neon
 	-  %rootDir%/../../spaze/phpstan-disallowed-calls/disallowed-execution-calls.neon
 	-  %rootDir%/../../spaze/phpstan-disallowed-calls/disallowed-insecure-calls.neon
 	-  %rootDir%/../../spaze/phpstan-disallowed-calls/disallowed-loose-calls.neon
-	-  %rootDir%/../../tomasvotruba/type-coverage/config/extension.neon
 
 # @see https://github.com/TYPO3BestPractices/tea/blob/main/Build/phpstan/phpstan.neon
 parameters:
