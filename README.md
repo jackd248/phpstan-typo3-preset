@@ -45,7 +45,7 @@ parameters:
     - .Build (?)
 
   type_coverage:
-    constant: 0 # TODO: Set to 100, when PHP 8.3 is minimum requirement
+    constant: 0 # TODO: Remove when PHP 8.3 is minimum requirement
 ```
 
 ## ⭐ License
