@@ -5,5 +5,4 @@ includes:
     - %rootDir%/../../phpstan/phpstan-deprecation-rules/rules.neon
     - %rootDir%/../../spaze/phpstan-disallowed-calls/extension.neon
     - %rootDir%/../../tomasvotruba/type-coverage/config/extension.neon
-	- %rootDir%/../../tomasvotruba/cognitive-complexity/config/extension.neon
-
+    - %rootDir%/../../tomasvotruba/cognitive-complexity/config/extension.neon
