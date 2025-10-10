@@ -9,28 +9,15 @@ parameters:
 	parallel:
 		maximumNumberOfProcesses: 5
 
-	level: 7
-
-	bootstrapFiles:
-		- vendor/autoload.php
-
-	paths:
-		- Classes
-		- Configuration
-		- Resources
-		- Tests/Unit
-
-	excludePaths:
-		- .Build (?)
-
 	type_coverage:
 		return: 100
 		param: 95
 		property: 95
+		constant: 0
 
 	cognitive_complexity:
-		class: 10
-		function: 5
+		class: 20
+		function: 10
 
 	disallowedFunctionCalls:
 		-

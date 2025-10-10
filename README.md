@@ -31,6 +31,18 @@ is automatically included.
 
 includes:
   - %rootDir%/../../konradmichalik/phpstan-typo3-preset/phpstan.neon.dist
+
+parameters:
+  level: 7
+
+  paths:
+    - Classes
+    - Configuration
+    - Resources
+    - Tests/Unit
+
+  excludePaths:
+    - .Build (?)
 ```
 
 ## ⭐ License
