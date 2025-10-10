@@ -48,6 +48,10 @@ parameters:
     constant: 0 # TODO: Remove when PHP 8.3 is minimum requirement
 ```
 
+## 💛 Acknowledgements
+
+This project is partly based on the best practices of [tea](https://github.com/TYPO3BestPractices/tea) extension.
+
 ## ⭐ License
 
 This project is licensed under [GNU General Public License 3.0 (or later)](LICENSE).
