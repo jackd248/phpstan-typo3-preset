@@ -13,7 +13,8 @@ parameters:
 		return: 100
 		param: 95
 		property: 95
-		constant: 0
+		constant: 0 # TODO: Set to 100, when PHP 8.3 is minimum requirement
+		declare: 70
 
 	cognitive_complexity:
 		class: 20
