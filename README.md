@@ -11,8 +11,8 @@ This package provides a basic TYPO3 [PHPStan](https://phpstan.org/) configuratio
 
 ## 🔥 Installation
 
-[![Packagist](https://img.shields.io/packagist/v/konradmichalik/php-cs-fixer-preset?label=version&logo=packagist)](https://packagist.org/packages/konradmichalik/php-cs-fixer-preset)
-[![Packagist Downloads](https://img.shields.io/packagist/dt/konradmichalik/php-cs-fixer-preset?color=brightgreen)](https://packagist.org/packages/konradmichalik/php-cs-fixer-preset)
+[![Packagist](https://img.shields.io/packagist/v/konradmichalik/phpstan-typo3-preset?label=version&logo=packagist)](https://packagist.org/packages/konradmichalik/phpstan-typo3-preset)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/konradmichalik/phpstan-typo3-preset?color=brightgreen)](https://packagist.org/packages/konradmichalik/phpstan-typo3-preset)
 
 ```bash
 composer require konradmichalik/phpstan-typo3-preset --dev
