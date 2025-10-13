@@ -17,7 +17,7 @@ parameters:
 		declare: 70
 
 	cognitive_complexity:
-		class: 20
+		class: 40
 		function: 10
 
 	disallowedFunctionCalls:
