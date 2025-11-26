@@ -20,6 +20,9 @@ parameters:
 		class: 40
 		function: 10
 
+	strictRules:
+	    disallowedShortTernary: false
+
 	disallowedFunctionCalls:
 		-
 			function:
